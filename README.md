@@ -38,7 +38,7 @@ This is a **Smart Brooder** system designed to automate temperature control for 
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/yourusername/smart-brooder.git
+   git clone https://github.com/hani-2020/Brooder-Project.git
    ```
 2. **Install Required Libraries**:
    - [OneWire](https://github.com/PaulStoffregen/OneWire)
