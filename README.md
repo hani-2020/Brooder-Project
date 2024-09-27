@@ -66,7 +66,7 @@ This is a **Smart Brooder** system designed to automate temperature control for 
    - Low temperature, high temperature, and current temperature will be displayed in real time.
   
 4. **Reset system**: 
-   - https://github.com/hani-2020/Brooder-Project/blob/main/Screenshot%20from%202024-09-27%2015-05-38.png 
+    ![alt text](https://github.com/hani-2020/Brooder-Project/blob/main/Screenshot%20from%202024-09-27%2015-05-38.png)
 
 ## Customization
 
