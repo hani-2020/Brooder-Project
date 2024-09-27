@@ -72,12 +72,4 @@ You can adjust the **low_temp_raw** and **high_temp_raw** thresholds by modifyin
 
 - Add support for remote monitoring using WiFi or Bluetooth.
 - Integrate a mobile app for easier control and notifications.
-- Implement more advanced PID control for smoother temperature regulation.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust this template based on your project's specific setup or additional features!
+- Make a more advanced air conditioning system.
