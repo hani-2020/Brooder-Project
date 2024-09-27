@@ -1,6 +1,6 @@
 # Smart Brooder System
 
-This is a **Smart Brooder** system designed to automate temperature control for poultry hatcheries using an Arduino-compatible board. The system monitors temperature in real-time, automatically adjusts heating, lighting, and fan control to maintain ideal conditions for the brooder. It uses an OLED display to show real-time temperature data and system status.
+This is a **Smart Brooder** system designed to automate temperature control for poultry hatcheries using an Arduino Uno. The system monitors temperature in real-time, automatically adjusts heating, lighting, and fan control to maintain ideal conditions for the brooder. It uses an OLED display to show real-time temperature data and system status.
 
 ## Features
 
@@ -12,7 +12,7 @@ This is a **Smart Brooder** system designed to automate temperature control for 
   
 ## Components
 
-- **Arduino-compatible Board**
+- **Arduino Uno**
 - **Dallas DS18B20 Temperature Sensor**
 - **OLED Display (SSD1306)**
 - **Fans (Master and In-out fan)**
