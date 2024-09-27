@@ -19,14 +19,15 @@ This is a **Smart Brooder** system designed to automate temperature control for 
 - **Heater**
 - **Light**
 - **Resistors, Cables, and Power Supply**
+- **4 channel Relay**
 
 ## Wiring
 
 | Component          | Pin         | Description                            |
 |--------------------|-------------|----------------------------------------|
 | Dallas DS18B20      | Pin 2       | OneWire bus for temperature sensor     |
-| Master Fan          | Pin 6       | Main fan control                       |
-| In-out Fan          | Pin 5       | Ventilation fan control                |
+| Master Fan Relay    | Pin 6       | Main fan control                       |
+| In-out Fan Relay    | Pin 5       | Ventilation fan control                |
 | Light               | Pin 8       | Brooder lighting control               |
 | Heater              | Pin 3       | Heater control                         |
 | Reset Pin           | Pin 9       | Reset control for the pulse mechanism  |
