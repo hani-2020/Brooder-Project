@@ -1,7 +1,3 @@
-Here's a sample **GitHub README** for the brooder project based on your code:
-
----
-
 # Smart Brooder System
 
 This is a **Smart Brooder** system designed to automate temperature control for poultry hatcheries using an Arduino-compatible board. The system monitors temperature in real-time, automatically adjusts heating, lighting, and fan control to maintain ideal conditions for the brooder. It uses an OLED display to show real-time temperature data and system status.
