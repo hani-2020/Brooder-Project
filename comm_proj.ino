@@ -10,7 +10,7 @@
 #define MasterFan 6
 #define in_out_fan 5
 #define light 8
-#define heater 3
+#define heater 7
 #define reset 9
 
 OneWire oneWire(ONE_WIRE_BUS);
