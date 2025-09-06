@@ -29,10 +29,10 @@ void setup(void)
 //gpio init 
   pinMode(2, INPUT);
   pinMode(6, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(8, OUTPUT);
-  pinMode(3, OUTPUT);
-  pinMode(7, OUTPUT);
+  pinMode(MasterFan, OUTPUT);
+  pinMode(in_out_fan, OUTPUT);
+  pinMode(light, OUTPUT);
+  pinMode(heater, OUTPUT);
   pinMode(A2, INPUT);
   pinMode(A3, INPUT);
   pinMode(9, OUTPUT);
@@ -84,8 +84,8 @@ void loop(void)
   digitalWrite(in_out_fan, fan_state);      
   float low_temp_raw=analogRead(A2);
   float high_temp_raw=analogRead(A3);
-  int low_temp=(1023+low_temp_raw)/51.15;
-  int high_temp=(1023+high_temp_raw)/51.15; 
+  int low_temp = (low_temp_raw/44) + 20;
+  int high_temp = (high_temp_raw/44) + 20;
   int new_temp;
   display.print("low temp: ");
   display.print(low_temp);
